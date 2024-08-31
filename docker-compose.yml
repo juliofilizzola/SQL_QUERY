@@ -6,7 +6,7 @@ services:
     container_name: mysql_container
     environment:
       MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: my_database
+      MYSQL_DATABASE: sakila
       MYSQL_USER: my_user
       MYSQL_PASSWORD: my_password
     ports:
